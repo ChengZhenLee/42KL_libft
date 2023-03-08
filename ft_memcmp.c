@@ -2,7 +2,7 @@
 
 int	memcmp(const void *s1, const void *s2, size_t n)
 {
-	int	i;
+	size_t	i;
 
 	i = -1;
 	if (n == 0)

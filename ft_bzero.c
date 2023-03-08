@@ -2,7 +2,7 @@
 
 void	bzero(void *s, size_t n)
 {
-	int	i;
+	size_t	i;
 
 	i = -1;
 	while (++i < n)

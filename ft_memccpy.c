@@ -2,7 +2,7 @@
 
 void	*memccpy(void *dest, const void *src, int c, size_t n)
 {
-	int	i;
+	size_t	i;
 
 	i = -1;
 	if (!dest || !src)

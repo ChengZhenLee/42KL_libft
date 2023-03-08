@@ -3,7 +3,7 @@
 void	*memmove(void *dest, const void *src, size_t n)
 {
 	void	*temp;
-	int	i;
+	size_t	i;
 
 	i = -1;
 	temp = malloc(n);
