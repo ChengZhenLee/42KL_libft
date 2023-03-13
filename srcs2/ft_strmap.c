@@ -8,7 +8,9 @@ char	*ft_strmap(char const *s, char (*f)(char))
 	i = 0;
 	while (s[len])
 		len++;
-	res = (char *)(malloc)(sizeof(char) * (len + 1));
+	res = (char *)(malloc)(sizeof(char) * (i + 1));
+	if (!res)
+		return (NULL);
 	i = -1;
 	while (s[++i])
 		res[i] = (*f)(s[i]);
