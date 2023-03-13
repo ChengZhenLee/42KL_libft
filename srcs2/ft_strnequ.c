@@ -2,7 +2,7 @@
 
 int	ft_strnequ(char const *s1, char const *s2, size_t n)
 {
-	int	i;
+	size_t	i;
 
 	i = -1;
 	while ((s1[++i] || s2[i]) && i < n)
