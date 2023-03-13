@@ -2,7 +2,10 @@
 
 void	ft_memdel(void **ap)
 {
-	free(*ap);
+	while (*ap)
+	{
+		free(*ap);
+		*ap++;
+	}
 	ap = NULL;
 }
-
