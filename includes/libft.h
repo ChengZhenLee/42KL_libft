@@ -15,5 +15,6 @@ typedef struct	s_list
 size_t	ft_strlen(const char *s);
 int	ft_isalpha(int c);
 int	ft_isdigit(int c);
+void	ft_putchar(char c);
 
 #endif
