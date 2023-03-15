@@ -12,6 +12,7 @@ typedef struct	s_list
 	struct s_list	*next;
 } t_list;
 
+void	*ft_memcpy(void *dest, const void *src, size_t n);
 size_t	ft_strlen(const char *s);
 int	ft_isalpha(int c);
 int	ft_isdigit(int c);
