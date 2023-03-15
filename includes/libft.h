@@ -16,5 +16,6 @@ size_t	ft_strlen(const char *s);
 int	ft_isalpha(int c);
 int	ft_isdigit(int c);
 void	ft_putchar(char c);
+void	ft_putchar_fd(char c, int fd);
 
 #endif
