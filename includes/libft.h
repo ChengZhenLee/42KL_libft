@@ -18,5 +18,6 @@ int	ft_isalpha(int c);
 int	ft_isdigit(int c);
 void	ft_putchar(char c);
 void	ft_putchar_fd(char c, int fd);
+void	ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
 
 #endif
